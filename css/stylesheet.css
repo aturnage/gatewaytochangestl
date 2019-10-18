@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .container960 {
   max-width: 960px;
   margin: 0 auto;
@@ -9,19 +11,47 @@
   background-size: cover;
 }
 .title {
-
+  color: white;
+  font-size: 5vw;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  top: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
 }
 .description {
   width: 100%;
-  background-color: rbga (48, 73, 47, 1);
+  background-color: rgba(32, 40, 58, 1);
+  height: 100%;
+}
+.description > p{
+  color: white;
+  font-size: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px;
 }
 .description > img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
 }
+.producerColumn {
+  float: left;
+  width: 50%;
+}
 .producerInfo {
   list-style: none;
   text-align: center;
-
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(32, 40, 58, 1);
+}
+.producerInfo > li {
+  top: 50%;
+}
+.test1 {
+  background-color: purple;
+}
+.test2 {
+  background-color: orange;
 }
