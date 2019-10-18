@@ -14,6 +14,10 @@ body {
   position: relative;
   text-align: center;
 }
+.centerImage {
+  display:block;
+  margin: 0 auto;
+}
 .mainPic {
   background-image: url('/images/obama-arch.jpg');
   /* height: 900px; */
@@ -46,14 +50,27 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding: 50px;
 }
-.description > img {
+/* .description > img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+} */
+.purchaseButton {
+  background-color: white;
 }
-.producerColumn {
+.purchaseButtonBackground {
+  background-color: white;
+  height: 300px;
+}
+.purchaseColumn {
   float: left;
-  width: 50%;
+  width: 20%;
+  background-color: white;
+}
+.line {
+  background-color: red;
+  height: 3px;
+  margin: 20px auto;
 }
 .producerInfo {
   list-style: none;
@@ -64,10 +81,4 @@ body {
 }
 .producerInfo > li {
   top: 50%;
-}
-.test1 {
-  background-color: purple;
-}
-.test2 {
-  background-color: orange;
 }
