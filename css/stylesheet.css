@@ -57,6 +57,10 @@ body {
 } */
 .purchaseButton {
   background-color: white;
+  text-align: center;
+  color: rgba(32, 40, 58, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
 }
 .purchaseButtonBackground {
   background-color: white;
@@ -64,7 +68,7 @@ body {
 }
 .purchaseColumn {
   float: left;
-  width: 20%;
+  width: 50%;
   background-color: white;
 }
 .line {
