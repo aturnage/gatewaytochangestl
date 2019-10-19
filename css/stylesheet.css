@@ -64,7 +64,7 @@ a {
   color: white;
   font-size: 2.5vw;
   font-family: 'Montserrat', sans-serif;
-  padding: 50px;
+  padding: 35px;
 }
 .purchaseButton {
   background-color: white;
@@ -82,11 +82,19 @@ a {
   width: 50%;
   background-color: white;
 }
+.purchaseText {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+}
 .vintageText {
   color: rgba(32, 40, 58, 1);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 2vw;
+}
+.lineSpacing {
+  padding: 0;
 }
 .producerInfo {
   list-style: none;
